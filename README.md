@@ -3,7 +3,7 @@ A collection of tools for use by Starbase Commanders in Pardus (a MMORPG set in 
 
 ## What is this?
 
-This is a web extension that extends either Firefox (56+) or Chrome, adding some extra functionality for Starbase Commanders to assist them in successfully running their Starbase.
+This is a web extension that extends either Firefox or Chrome, adding some extra functionality for Starbase Commanders to assist them in successfully running their Starbase.
 
 ## Why have you made it?
 
@@ -15,7 +15,11 @@ You can clone this repository and use the `build.sh` script to build the extensi
 
 You might instead want to get the latest version from the following:
 
- * [Mozilla Addons - Pardus Starbase Commander](https://addons.mozilla.org/en-GB/firefox/addon/pardus-starbase-commander/) (Firefox v56+)
+ * [Mozilla Addons - Pardus Starbase Commander](https://addons.mozilla.org/en-GB/firefox/addon/pardus-starbase-commander/) (Firefox)
  * [Chrome Store - Pardus Starbase Commander](https://chrome.google.com/webstore/detail/pardus-starbase-commander/ipddggkkdkdbkglpjenmpfieailhchhg/) (Chrome)
 
 And unless you are playing [Pardus - a MMORPG set in space](http://www.pardus.at/) and are a Starbase Commander, then you will find this web extension of little use.
+
+## License
+
+Mozilla Public License, version 2.0 [details](http://www.mozilla.org/MPL/2.0/).
