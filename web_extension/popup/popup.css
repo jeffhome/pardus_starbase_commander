@@ -1,0 +1,19 @@
+html {
+	font-family: system-ui, sans-serif;
+}
+body {
+	padding: 10px 20px 20px 20px;
+	min-width: 160px;
+}
+p {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+button {
+	padding: 5px;
+}
+#version-display {
+	font-size: 10px;
+	color: #999;
+	text-align: right;
+}

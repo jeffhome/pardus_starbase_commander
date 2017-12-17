@@ -1,0 +1,13 @@
+#starbase_population_decline_data {
+	margin-bottom: 10px;
+}
+
+#starbase_population_decline_data .info {
+	font-style: italic;
+	color: #91919f;
+}
+
+#overviewLinks {
+	padding-top: 7px;
+	border-top: 2px solid #a1a1af;
+}

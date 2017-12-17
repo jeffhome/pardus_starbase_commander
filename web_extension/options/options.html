@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Options</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="options.css"/>
+</head>
+<body>
+	<h1>Starbase Commander Settings</h1>
+
+	<div class="title" id="orion_settings">&raquo; Orion</div>
+	<ul id="orion_settings_list" class="show">
+		<li class="section"><input type="checkbox" id="boolEnabledPopulationDeclineOrion"/> <label for="boolEnabledPopulationDeclineOrion">Enable Population Decline for Orion</label></li>
+		<li class="instructions">Based on the defined maximum workers, the current population and the amount of food and water in stock, this displays information on your starbase overview screen about how many starbase ticks remain until your starbase loses each pylon and then ultimately downgrades.</li>
+		<li><input type="checkbox" id="boolEnabledOverviewLinksOrion"/> <label for="boolEnabledOverviewLinksOrion">Enable Overview Links for Orion</label></li>
+		<li class="instructions">Add links to starbase management pages for starbase overview, starbase and the main navigation screen.</li>
+	</ul>
+
+	<div class="title" id="artemis_settings">&raquo; Artemis</div>
+	<ul id="artemis_settings_list">
+		<li class="section"><input type="checkbox" id="boolEnabledPopulationDeclineArtemis"/> <label for="boolEnabledPopulationDeclineArtemis">Enable Population Decline for Artemis</label></li>
+		<li class="instructions">Based on the defined maximum workers, the current population and the amount of food and water in stock, this displays information on your starbase overview screen about how many starbase ticks remain until your starbase loses each pylon and then ultimately downgrades.</li>
+		<li><input type="checkbox" id="boolEnabledOverviewLinksArtemis"/> <label for="boolEnabledOverviewLinksArtemis">Enable Overview Links for Artemis</label></li>
+		<li class="instructions">Add links to starbase management pages for starbase overview, starbase and the main navigation screen.</li>
+	</ul>
+
+	<div class="title" id="pegasus_settings">&raquo; Pegasus</div>
+	<ul id="pegasus_settings_list">
+		<li class="section"><input type="checkbox" id="boolEnabledPopulationDeclinePegasus"/> <label for="boolEnabledPopulationDeclinePegasus">Enable Population Decline for Pegasus</label></li>
+		<li class="instructions">Based on the defined maximum workers, the current population and the amount of food and water in stock, this displays information on your starbase overview screen about how many starbase ticks remain until your starbase loses each pylon and then ultimately downgrades.</li>
+		<li><input type="checkbox" id="boolEnabledOverviewLinksPegasus"/> <label for="boolEnabledOverviewLinksPegasus">Enable Overview Links for Pegasus</label></li>
+		<li class="instructions">Add links to starbase management pages for starbase overview, starbase and the main navigation screen.</li>
+	</ul>
+
+	<div class="cta_save"><button id="save">Save Settings</button> <span id="status"></span></div>
+
+	<script src="options.js"></script>
+</body>
+</html>
