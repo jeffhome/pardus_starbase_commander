@@ -5,6 +5,20 @@ A collection of tools for use by Starbase Commanders in Pardus (a MMORPG set in 
 
 This is a web extension that extends either Firefox or Chrome, adding some extra functionality for Starbase Commanders to assist them in successfully running their Starbase.
 
+## What does it do?
+
+The Pardus Starbase Commander web extension is a collection of tools that extend the various starbase management pages. It does not send any data anywhere, but uses the data available on your Starbase management screens.
+
+It currently contains the following functionality:
+
+ * Population Decline reporting on the Starbase Overview screen
+ * Links added to Starbase Overview, Starbase and Main screen for all Starbase management pages
+ * Equipment Pricing (the Set Equipment Prices and Set Ship Prices screens are enhanced to show actual cost and ease price management)
+
+I will be adding the following functionality next:
+
+ * Starbase Auditing Tool (allowing you to generate a report showing the value of resources, equipment, missiles and ships in your Starbase)
+
 ## Why have you made it?
 
 After the release of Firefox v57 (Quantum) and the changes required for existing userscripts, I decided to bypass the likes of TamperMonkey and Greasemonkey by bundling my userscript functionality into a natice web extension.
