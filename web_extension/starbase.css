@@ -11,3 +11,110 @@
 	padding-top: 7px;
 	border-top: 2px solid #a1a1af;
 }
+
+
+
+#equipmentPricer .titleHead {
+	line-height: 20px;
+}
+#equipmentPricer .titleHead h2 {
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 38px;
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#equipmentPricer .shipImage img {
+	width: 32px;
+	height: 32px;
+}
+#equipmentPricer .minAmountCol {
+	text-align: center;
+	width: 80px;
+}
+#equipmentPricer .minAmountCol input[type=text] {
+	text-align: center;
+}
+#equipmentPricer .planetPriceCol,.scrapPriceCol,.buildCostCol {
+	text-align: right;
+	width: 70px;
+	padding: 0 15px 0 15px;
+}
+#equipmentPricer .jackpot {
+	background-color: #3a8;
+	color: #000;
+	font-weight: bold;
+}
+#equipmentPricer .loss {
+	background-color: #a11;
+	color: #fff;
+	font-weight: bold;
+}
+#equipmentPricer .widget {
+	float: right;
+	margin: 10px 10px 0 0;
+	text-align: left;
+}
+#equipmentPricer .widget span {
+	font-size: 12px;
+}
+#equipmentPricer .widget a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#equipmentPricer .discountBox {
+	width: 25px;
+	text-align: center;
+}
+#equipmentPricer .fakeBtn {
+	float: left;
+	background-color: #292;
+	color: #fff;
+	border: 2px solid #222;
+	border-radius: 3px;
+	padding: 1px 8px 1px 8px;
+	margin: 1px 8px 1px 8px;
+	font-size: 12px;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+}
+#equipmentPricer .widgetInstruction {
+	font-style: italic;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 5px 10px;
+}
+#equipmentPricer .instruction {
+	float: left;
+	clear: left;
+	font-style: italic;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 18px 10px 0 20px;
+}
+#equipmentPricer input[type=text] {
+	border: 1px solid #aab;
+	border-radius: 3px;
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	text-align: right;
+	background-color: #00001c;
+	color: #d0d1d9;
+	font-family: Arial,Verdana,sans-serif;
+	font-size: 11px;
+}
+#equipmentPricer #setPricesButton {
+	background-color: #292;
+	color: #fff;
+	border: 2px solid #222;
+	border-radius: 3px;
+	padding: 4px 14px 4px 14px;
+	margin: 8px;
+	font-size: 14px;
+	cursor: pointer;
+}
+#equipmentPricer .pileCoins {
+	vertical-align: middle;
+}
+

@@ -15,12 +15,15 @@ function save_options() {
 
 		boolEnabledPopulationDeclineOrion : document.getElementById('boolEnabledPopulationDeclineOrion').checked,
 		boolEnabledOverviewLinksOrion : document.getElementById('boolEnabledOverviewLinksOrion').checked,
+		boolEnabledEquipmentPricerOrion : document.getElementById('boolEnabledEquipmentPricerOrion').checked,
 		
 		boolEnabledPopulationDeclineArtemis : document.getElementById('boolEnabledPopulationDeclineArtemis').checked,
 		boolEnabledOverviewLinksArtemis : document.getElementById('boolEnabledOverviewLinksArtemis').checked,
-		
+		boolEnabledEquipmentPricerArtemis : document.getElementById('boolEnabledEquipmentPricerArtemis').checked,
+
 		boolEnabledPopulationDeclinePegasus : document.getElementById('boolEnabledPopulationDeclinePegasus').checked,
-		boolEnabledOverviewLinksPegasus : document.getElementById('boolEnabledOverviewLinksPegasus').checked
+		boolEnabledOverviewLinksPegasus : document.getElementById('boolEnabledOverviewLinksPegasus').checked,
+		boolEnabledEquipmentPricerPegasus : document.getElementById('boolEnabledEquipmentPricerPegasus').checked
 
 	}, function() {
 		// Update status to let user know options were saved.
@@ -40,24 +43,30 @@ function restore_options() {
 
 		boolEnabledPopulationDeclineOrion: true,
 		boolEnabledOverviewLinksOrion: true,
-		
+		boolEnabledEquipmentPricerOrion: true,
+
 		boolEnabledPopulationDeclineArtemis: true,
 		boolEnabledOverviewLinksArtemis: true,
-		
+		boolEnabledEquipmentPricerArtemis: true,
+
 		boolEnabledPopulationDeclinePegasus: true,
-		boolEnabledOverviewLinksPegasus: true
+		boolEnabledOverviewLinksPegasus: true,
+		boolEnabledEquipmentPricerPegasus: true
 
 
 	}, function(items) {
 
 		document.getElementById('boolEnabledPopulationDeclineOrion').checked = items.boolEnabledPopulationDeclineOrion;
 		document.getElementById('boolEnabledOverviewLinksOrion').checked = items.boolEnabledOverviewLinksOrion;
+		document.getElementById('boolEnabledEquipmentPricerOrion').checked = items.boolEnabledEquipmentPricerOrion;
 
 		document.getElementById('boolEnabledPopulationDeclineArtemis').checked = items.boolEnabledPopulationDeclineArtemis;
 		document.getElementById('boolEnabledOverviewLinksArtemis').checked = items.boolEnabledOverviewLinksArtemis;
+		document.getElementById('boolEnabledEquipmentPricerArtemis').checked = items.boolEnabledEquipmentPricerArtemis;
 
 		document.getElementById('boolEnabledPopulationDeclinePegasus').checked = items.boolEnabledPopulationDeclinePegasus;
 		document.getElementById('boolEnabledOverviewLinksPegasus').checked = items.boolEnabledOverviewLinksPegasus;
+		document.getElementById('boolEnabledEquipmentPricerPegasus').checked = items.boolEnabledEquipmentPricerPegasus;
 
 	});
 }
