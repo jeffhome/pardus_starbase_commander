@@ -194,7 +194,7 @@ Starbase.prototype.appendToPagePopulationDecline = function(initialStarbaseData,
 			tdEl.setAttribute('class', 'info');
 			tdEl.setAttribute('colspan', 2);
 			tdEl.style.paddingBottom = '5px';
-			tdEl.textContent = 'Worker gains are random between 1.2% and 2.4% for a fully supplied upkeep - an average of 1.88% is used';
+			tdEl.textContent = 'Worker gains are random between 1.2% and 2.4% for a fully supplied upkeep - an average of 1.8% is used';
 		trEl.appendChild(tdEl);
 		table.appendChild(trEl);		
 
@@ -258,7 +258,7 @@ Starbase.prototype.setMaxWorkersPopulationDecline = function() {
 /*
 	Given a population and food and water on hand, this method returns the population and food and water after
 	the tick. We can accurately predict population decline if Food and/or Water requirements are not met, but
-	we have to deal with an average between 1.2% and 2.4% for population growth. I chose 1.88% as the average.
+	we have to deal with an average between 1.2% and 2.4% for population growth. I chose 1.8% as the average.
 */
 Starbase.prototype.starbaseTickPopulationDecline = function(starbaseData, maxWorkers) {
 
@@ -279,7 +279,7 @@ Starbase.prototype.starbaseTickPopulationDecline = function(starbaseData, maxWor
 		new_water_bal = 0;
 		growth_amount += 0.03;
 	}
-	let new_population = Math.floor(population * 1.0188);
+	let new_population = Math.floor(population * 1.018);
 	if (growth_amount > 1) {
 		new_population = Math.floor(population / growth_amount);
 	}
@@ -355,6 +355,7 @@ Starbase.prototype.getRsrcPricesEquipmentPricer = function() {
 				this.setPref(_rsrcName, _pricePaid);
 			}
 		}
+		this.setPref('credits', 1);
 		this.setPref('Priced', 'true');
 	}
 }

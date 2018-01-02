@@ -21,9 +21,9 @@ if [ -v $2 ]; then
 	echo "  ./build.sh filename [chrome|firefox|all]"
 	echo ""
 	echo "Example:"
-	echo "  ./build.sh pardus_drugclock-1.0.0 chrome"
-	echo "  ./build.sh pardus_drugclock-1.0.0 firefox"
-	echo "  ./build.sh pardus_drugclock-1.0.0 all"
+	echo "  ./build.sh pardus_starbase_commander-1.0.0 chrome"
+	echo "  ./build.sh pardus_starbase_commander-1.0.0 firefox"
+	echo "  ./build.sh pardus_starbase_commander-1.0.0 all"
 	exit
 fi
 
@@ -53,7 +53,7 @@ fi
 
 # Build for all browsers
 if [ "$2" = "all" ]; then
-	echo "Building for all TARGET_BROWSERs..."
+	echo "Building for all browsers..."
 	cp ../manifest_firefox.json manifest.json
 	zip -r $FILE_NAME.xpi ./*
 	mv $FILE_NAME.xpi ../
